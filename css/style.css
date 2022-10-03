@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif, Arial;
+    font-size: 16px;
+    color:#333333;
+    background-color: rgb(240, 240, 240)
+}
+
+header {
+    display: flex;
+    width: 100%;
+    z-index: 100;
+    background-color: rgb(240, 240, 240);
+    max-height: 64px;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 24px;
+    margin-right: 24px;
+  
+    
+}
+
+.brand-name {
+    font-size: 1.5rem;
+    height: 32px;
+}
+
+.brand-logo {
+    height: 2.5rem;
+}
+.colmar {
+    color: #333333;
+}
+
+.academy{
+    color: rgb(180, 180, 180);
+}
+
+.navbar > .nav-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex:1;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 16px;
+    align-items: center;
+    
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+.hero {
+    background-color: rgb(180, 180, 180);
+    width: 100%;
+    height: calc(100vh - 64px);
+    
+}
+
+.hero {
+    display: flex;
+    width: 100%;
+    /* padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 24px;
+    padding-right: 24px; */
+    /* gap: 24px; */
+}
+.hero-left {
+    display: flex;
+    width: 60%;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 24px;
+    padding-right: 24px;
+    
+    
+}
+
+.hero-left-image {
+    object-fit: scale-down;
+}
+
+.hero-right {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    gap: 24px;
+    align-items: stretch;
+    justify-content: center;
+    padding-right: 72px;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.hero-text {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.hero-btn {
+    width: 100%;
+    font-weight: 400;
+    font-size: 1.5rem;
+    height: 3rem;
+    padding: 8px;
+    color: rgb(240, 240, 240);
+    background-color: #333333;
+    border: none;
+} 
+    
+
+
+
+.main {
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    
+  
+}
+
+.main-left {
+    display: flex;
+    width: 60%;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 24px;
+    padding-right: 24px;
+   
+    flex-direction: column;
+    
+}
+.main-left-image {
+    object-fit: cover;
+}
+
+.main-title {
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+
+.main-text-name {
+    margin-bottom: 0;
+}
+
+.main-right {
+    display: flex;
+    width: 40%;
+    padding: 16px 0;
+    border-left: 1px solid rgb(180, 180, 180);
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.main-card {
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(240, 240, 240);
+    padding: 16px;
+    border-bottom: 1px solid rgb(180, 180, 180);
+    
+}
+.main-card-image {
+    width: 35%;
+    height: auto;
+    background-size: cover;
+
+}
+.main-card-content {
+    width: 65%;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+ 
+    padding: 16px;
+}
+.main-card-text {
+    margin: 8px 0;
+}
+.main-card-3 {
+    background-color: rgb(180, 180, 180) ;
+}
+
+.courses {
+    background-color: rgb(180, 180, 180);
+    width: 100%;
+    height: 100vh;
+    padding: 32px;
+   
+    
+  
+}
+
+.courses-heading {
+    text-align: center;
+}
+
+.course-card {
+    padding-top: 32px;
+    padding-bottom: 0;
+    padding-left: 32px;
+    padding-right: 32px;
+    display: flex;
+    flex: wrap;
+    
+}
+.course-card-item {
+    display: flex;
+    flex-direction: column;
+}
+.card-item-image {
+    width: 33%;
+    
+    height: auto;
+    object-fit: fill;
+    flex: 1;
+
+}
+.card-item-content {
+    width: 33%;
+    padding: 16px;
+    flex: 2;
+}
+.card-item-span {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    
+}
+.card-itenm-text {
+    margin-bottom: 24px;
+}
+.thesis {
+    background-color: rgb(240, 240, 240);
+} 
+
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    height: 64px;
+    border-top: 1px solid rgb(180, 180, 180);
+} 
+
+.footer-right {
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+}
